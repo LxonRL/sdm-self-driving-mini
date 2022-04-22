@@ -1,9 +1,9 @@
 let next = 0
 for (let index = 0; index < 4; index++) {
     basic.setLedColor(0xff0000)
-    basic.pause(500)
+    basic.pause(200)
     basic.turnRgbLedOff()
-    basic.pause(500)
+    basic.pause(200)
 }
 basic.showString("SDM", 250)
 next = 1
